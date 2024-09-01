@@ -1,0 +1,28 @@
+{
+  "name": "cassiano",
+  "version": "1.0.0",
+  "description": "TicketLog Automation Project",
+  "main": "index.js",
+  "scripts": {
+  "cy:open": "cypress open",
+  "test": "cypress run"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rcardosopereira/Cassiano.git"
+  },
+  "keywords": [
+    "JS",
+    "Cypress",
+    "Automation"
+  ],
+  "author": "Rafael C. Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcardosopereira/Cassiano/issues"
+  },
+  "homepage": "https://github.com/rcardosopereira/Cassiano#readme",
+  "devDependencies": {
+    "cypress": "^13.14.1"
+  }
+}
