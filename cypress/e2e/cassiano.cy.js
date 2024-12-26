@@ -15,9 +15,9 @@ describe('Acesso ao SL+', () => {
                             return false
                     })                        
                    // cy.get('#Username').should('be.visible')
-                    cy.get('#Username').type('cassianoschultz@hotmail.com')
+                    cy.get('#Username').type('cass@hotmail.com')
                    // cy.get('#Password').should('be.visible')
-                    cy.get('#Password').type('Desenv01!')
+                    cy.get('#Password').type('Des123')
                     cy.get('#login').click()                        
                    // cy.wait(30000)                                           
             })                
